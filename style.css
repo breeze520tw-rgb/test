@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 隱藏滾動條 */
+  height: 100vh; 
+  width: 100vw; 
+}
+
+canvas {
+  /* 移除 display: block; p5.js 已經預設 */
+  position: absolute; /* 允許 p5.js 的 canvas.position() 設定絕對位置 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
